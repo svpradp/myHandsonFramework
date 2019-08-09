@@ -20,6 +20,7 @@ public class LoginPage {
 		
 	}
 	
+	//To locate elements on LoginPage - this is the new commit added
 	@FindBy(xpath="//input[@id='txtUsername']") WebElement uname;
 	
 	@FindBy(xpath = "//input[@id='txtPassword']") WebElement pwd;

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up the Suite]]>
+    </line>
+    <line>
+      <![CDATA[Suite set up complete]]>
+    </line>
+    <line>
+      <![CDATA[Starting the browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser up and running]]>
+    </line>
+    <line>
+      <![CDATA[Test About to End, getting execution status ready]]>
+    </line>
+    <line>
+      <![CDATA[Report updated for this test]]>
+    </line>
+    <line>
+      <![CDATA[Quitting the browser]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="10333" started-at="2019-08-06T05:31:44Z" finished-at="2019-08-06T05:31:54Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="10333" started-at="2019-08-06T05:31:44Z" finished-at="2019-08-06T05:31:54Z">
+      <class name="com.tescases.LoginTestSample">
+        <test-method status="PASS" signature="getReadySuite()[pri:0, instance:com.tescases.LoginTestSample@4563e9ab]" name="getReadySuite" is-config="true" duration-ms="1345" started-at="2019-08-06T00:31:42Z" finished-at="2019-08-06T00:31:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up the Suite]]>
+            </line>
+            <line>
+              <![CDATA[Suite set up complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getReadySuite -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.tescases.LoginTestSample@4563e9ab]" name="startUp" is-config="true" duration-ms="6488" started-at="2019-08-06T00:31:44Z" finished-at="2019-08-06T00:31:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting the browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser up and running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.tescases.LoginTestSample@4563e9ab]" name="login" duration-ms="1115" started-at="2019-08-06T00:31:50Z" finished-at="2019-08-06T00:31:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.tescases.LoginTestSample@4563e9ab]" name="tearDownMethod" is-config="true" duration-ms="1500" started-at="2019-08-06T00:31:51Z" finished-at="2019-08-06T00:31:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginTestSample.login()[pri:0, instance:com.tescases.LoginTestSample@4563e9ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test About to End, getting execution status ready]]>
+            </line>
+            <line>
+              <![CDATA[Report updated for this test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tescases.LoginTestSample@4563e9ab]" name="tearDown" is-config="true" duration-ms="1210" started-at="2019-08-06T00:31:53Z" finished-at="2019-08-06T00:31:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Quitting the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tescases.LoginTestSample -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
